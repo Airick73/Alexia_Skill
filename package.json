@@ -1,0 +1,24 @@
+{
+  "name": "alexia_skill",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "esbuild index.ts --bundle --minify --sourcemap --platform=node --target=es2020 --outfile=dist/index.js",
+    "postbuild": "cd dist && zip -r index.zip index.js*",
+    "compile": "tsc -noEmit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ask-sdk": "^2.14.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.138",
+    "esbuild": "^0.21.4",
+    "typescript": "^5.4.5"
+  }
+}
