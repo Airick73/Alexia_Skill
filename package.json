@@ -14,7 +14,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "ask-sdk": "^2.14.0"
+    "ask-sdk": "^2.14.0",
+    "zip": "^1.2.0"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.138",

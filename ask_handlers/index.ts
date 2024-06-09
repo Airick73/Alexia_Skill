@@ -1,6 +1,6 @@
-export { LaunchRequestHandler } from './launch';
-export { CancelAndStopIntentHandler }  from './cancel'
-export { ErrorHandler }  from './error'
-export { HelpIntentHandler }  from './help'
-export { SessionEndedRequestHandler }  from './session'
-export { AskWeatherIntentHandler } from './whats_weather'
+export { LaunchRequestHandler } from './LaunchRequestHandler';
+export { CancelAndStopIntentHandler }  from './CancelAndStopIntentHandler'
+export { ErrorHandler }  from './ErrorHandler'
+export { HelpIntentHandler }  from './HelpIntentHandler'
+export { SessionEndedRequestHandler }  from './SessionEndedRequestHandler'
+export { AskWeatherIntentHandler } from './AskWeatherIntentHandler'

@@ -1,16 +1,15 @@
- {
+{
   "compilerOptions": {
-    "target": "es2020",
-    "strict": true,
-    "preserveConstEnums": true,
-    "noEmit": true,
-    "sourceMap": false,
-    "module":"commonjs",
-    "moduleResolution":"node",
-    "esModuleInterop": true, 
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true, 
-    "isolatedModules": true, 
+    "outDir": "./dist",         // Output directory for compiled JavaScript files
+    "rootDir": "./",         // Root directory of input files
+    "module": "commonjs",       // Module code generation
+    "target": "ES6",            // Specify ECMAScript target version
+    "strict": true,             // Enable all strict type-checking options
+    "esModuleInterop": true,    // Enable emit interoperability between CommonJS and ES Modules
+    "skipLibCheck": true        // Skip type checking of declaration files
   },
-  "exclude": ["node_modules", "**/*.test.ts"]
+  "include": [
+    "./**/*"                  // Include all files in the src directory
+  ]
 }
+
