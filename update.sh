@@ -14,4 +14,4 @@ if [ $? -eq 0 ]; then
 else
     echo "error: Build failed."
     exit 1
-fi:
+fi

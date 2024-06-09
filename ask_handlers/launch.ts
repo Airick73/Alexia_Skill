@@ -15,9 +15,14 @@ export const LaunchRequestHandler: RequestHandler = {
 		const speechText = 'Hi, this is the What\'s Weather Skill! Ask me the weather!';
 
 		return handlerInput.responseBuilder
-			.speak(speechText)
-			.reprompt(speechText)
-			.withSimpleCard('Hi, this is the What\'s Weather Skill! Ask me the weather!', speechText)
-			.getResponse();
+							.speak(speechText)
+							.reprompt(speechText)
+							.withSimpleCard('Hi, this is the What\'s Weather Skill! Ask me the weather!', speechText)
+							.getResponse();
 	},
 };
+
+  
+  
+
+
